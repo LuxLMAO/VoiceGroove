@@ -35,6 +35,10 @@ const commands: RESTPutAPIApplicationCommandsJSONBody = [
     description: "Leaves voice channel",
   },
   {
+    name: "autoplay",
+    description: "Toggles autoplay.",
+  },
+  {
     name: "play",
     description: "Plays a song",
     options: [
